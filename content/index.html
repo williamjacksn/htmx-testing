@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>HTMX testing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap-5.3.3.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="pt-3 row">
+        <div class="col">
+            <h1>HTMX testing</h1>
+        </div>
+    </div>
+
+    <div class="pt-3 row">
+        <div class="col">
+            <button class="btn btn-primary" data-bs-target=".modal" data-bs-toggle="modal"
+                    hx-get="original-modal-content.html" hx-target=".modal-content" type="button">
+                Open modal
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="modal">
+    <div class="modal-dialog">
+        <div class="modal-content"></div>
+    </div>
+</div>
+
+<script src="bootstrap-5.3.3.bundle.js"></script>
+<script src="htmx-1.9.12.js"></script>
+
+</body>
+</html>
