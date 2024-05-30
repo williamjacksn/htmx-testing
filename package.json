@@ -1,0 +1,10 @@
+{
+  "name": "htmx-testing",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "5.3.3",
+    "htmx.org": "1.9.12"
+  }
+}
