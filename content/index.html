@@ -21,6 +21,37 @@
             </button>
         </div>
     </div>
+
+    <div class="pt-3 row">
+        <div class="col">
+            <hr>
+            <h2>Changes in radio inputs alter the date input</h2>
+            <form>
+                <div class="mb-3">
+                    <div class="form-check">
+                        <input class="form-check-input" hx-get="date-2024-01-01.html" hx-target="#date-container"
+                               id="radio1" name="choose-a-date" type="radio">
+                        <label class="form-check-label" for="radio1">2024-01-01</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" hx-get="date-2024-02-02.html" hx-target="#date-container"
+                               id="radio2" name="choose-a-date" type="radio">
+                        <label class="form-check-label" for="radio2">2024-02-02</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" hx-get="date-2024-03-03.html" hx-target="#date-container"
+                               id="radio3" name="choose-a-date" type="radio">
+                        <label class="form-check-label" for="radio3">2024-03-03</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-auto" id="date-container">
+                        <input class="form-control" id="date-input" type="date">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 </div>
 
 <div class="modal">
