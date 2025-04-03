@@ -4,7 +4,7 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "bootstrap": "5.3.3",
+    "bootstrap": "5.3.4",
     "htmx.org": "2.0.4"
   },
   "devEngines": {
